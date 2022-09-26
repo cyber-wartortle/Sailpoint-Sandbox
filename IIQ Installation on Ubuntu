@@ -1,0 +1,94 @@
+##################################################### READ ME FIRST BEFORE INSTALLATION IDENTITY IQ SANDBOX ON UBUNTU 22.04.1 ########################################
+
+
+//PRE-REQUISITE
+//The server’s Fully Qualified Domain Name (FQDN) must be known and documented.
+//The server must be online with its operating system already installed.
+//Your desktop account must have remote desktop protocol (RDP) access to the server.
+//Your account must have administrative privileges to the server to which IdentityIQ is being installed.
+//The target server must have at least 15GB of free space on the C:\ drive for software installation.
+//The target server should have at least 2GB of RAM available, 8GB of RAM is preferred.
+
+
+##################################################### INSTALL IIQ SANDBOX ON VMWARE 16 WORKSTATIN PLAYER #############################################################
+
+#STEP 1 : CREATE DIRECTORY TO HOLD INSTALLER FILES
+
+//PARENT-DIRECTORY NAMED : SailPoint
+//SUB-DIRECTORY NAMED: InstallerFiles, tomcat
+
+#STEP 2 : DOWNLOAD & LAUNCH LINUX
+UBUNTU 22.04.1
+
+//Choose your preferred Linux Distro : UBUNTU, DEBIAN etc
+
+#How to check your Linux version
+
+$ lsb_release -d
+
+# STEP 3 : DOWNLOAD PROGRAMMING LANGUAGE
+JDK ORACLE 18 SE
+
+//OPTION : JAVA 64bit JDK/JRE 
+
+
+# STEP 4 : DOWNLOAD WEB SERVER/ APPLICATION SERVER
+
+TOMCAT APACHE 9.0.65
+
+//note
+//also called APACHE TOMCAT SERVELET CONTAINER 
+
+# STEP 5 : DOWNLOAD DATABASE CONNECTOR
+OPTION(ORACLE/MSQL/POSTGRESQL)
+
+JDBC DRIVERS FOR MYSQL
+
+#STEP 6 : DOWNLOAD ZIP/GZ UTILITY FOR LINUX
+
+//note
+//if your using Windows: DOWNLOAD 7-zip for Windows. It's an open source zip utility for Windows. 
+
+
+# STEP 7 : DOWNLOAD CODE EDITOR
+OPTION(VS CODE, ULTRAEDIT)
+
+NOTEPAD++ 8.4.4
+
+#STEP 8 : CHECK & RESIZE
+
+$ free -g -h -t 
+
+//Terminal prints 
+//memory, swap, total : total, used, free, shared, buff/cache, available
+
+$ grep MemTotal /proc/meminfo
+
+//Terminal prints
+// example. MemTotal: 8105812 kB
+
+//note
+//Now change your memory size to prepare for the sailpoint application installation.
+//Go Virtual Machine Setting > Memory > Change Size of GB. The min 8 GB above.
+
+$lsblk -f
+
+//note
+//this command list disks, including the partitions and the filesystems formatted on them.
+
+
+#STEP 9 : DOWNLOAD 
+PuTTY
+
+//note
+//a free, open-source terminal emulator, serial console and network file transfer application.
+
+#STEP 10 : DOWNLOAD 
+WinSCP
+
+//note
+//a free open source SFTP client, FTP client, WebDAV client and SCP client for Windows. It also offers scripting and basic file manager functionality
+
+#STEP 11 : DOWNLOAD BASE & PATCH IIQ SAILPOINT
+
+#STEP 12 : 

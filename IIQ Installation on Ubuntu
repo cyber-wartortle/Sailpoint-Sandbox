@@ -56,7 +56,7 @@ OPTION(VS CODE, ULTRAEDIT)
 
 NOTEPAD++ 8.4.4
 
-##################### OPTIONAL RECOMMENDED APPLICATIONS ##################################
+#####################################################  OPTIONAL RECOMMENDED APPLICATIONS #############################################################################
 
 #STEP 8 : DOWNLOAD 
 Eclipse Java Development IDE 
@@ -149,7 +149,7 @@ SquirrelSQL
 //SQuirreL SQL Client is a database administration tool; GUI (graphical user interface).
 //It uses JDBC to allow users to explore and interact with databases via a JDBC driver.
 
-#####################
+##################################################### CHECK THE MEMORY SIZE BEFORE INSTALLATION OF IIQ SANDBOX #######################################################
 
 #STEP 8 : CHECK & RESIZE
 

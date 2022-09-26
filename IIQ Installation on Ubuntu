@@ -12,6 +12,7 @@
 
 ##################################################### INSTALL IIQ SANDBOX ON VMWARE 16 WORKSTATIN PLAYER #############################################################
 
+
 #STEP 1 : CREATE DIRECTORY TO HOLD INSTALLER FILES
 
 //PARENT-DIRECTORY NAMED : SailPoint
@@ -55,6 +56,101 @@ OPTION(VS CODE, ULTRAEDIT)
 
 NOTEPAD++ 8.4.4
 
+##################### OPTIONAL RECOMMENDED APPLICATIONS ##################################
+
+#STEP 8 : DOWNLOAD 
+Eclipse Java Development IDE 
+
+//note
+//Eclipse is a free, Java-based development platform known for its plugins that allow developers to develop and test code written in other programming languages. 
+
+#STEP 9 : DOWNLOAD ENTERPRISE VERSION CONTROL-option 1
+Tortoise-SVN SubVersion Client
+
+//note
+//SVN is a centralized version control.
+
+#STEP 10 : DOWNLOAD ENTERPRISE VERSION CONTROL-option 2
+Tortoise-GIT Git client
+
+//note
+//Git is a distributed version control system.
+//It uses multiple repositories including a centralized repository and server, as well as some local repositories.
+
+//note-difference
+//Git may have more difficulty compressing and storing binary files, while SVN doesn’t as much.
+//SVN allows you to check out sub-trees (or branches) only, whereas Git requires you to check out the entire repository as a unit.
+//Git is better in Branching and merging support, when it comes to disk space storage.
+
+//note-terminology
+//Version Control System (VCS) that help with workflow and project management in coding.
+
+#STEP 11 : DOWNLOAD 
+Apache Directory Studio
+
+//note
+//Apache Directory Studio is a directory tooling platform intended to be used with any LDAP server, however 
+//it is particularly designed for use with the ApacheDS. 
+//It is an Eclipse RCP application, composed of several Eclipse (OSGi) plugins.
+
+//note-terminology
+//LDAP (Lightweight Directory Access Protocol) is an open and cross platform protocol used for directory services authentication. 
+//It provides the communication language that applications use to communicate with other directory services servers.
+
+#STEP 12 : DOWNLOAD 
+PuTTY
+
+//note
+//PuTTY is used to interact with the server directly. 
+//It is just a command line interface to your server. 
+
+#STEP 13 : DOWNLOAD 
+Pscp
+
+//note
+//if you are using Windows environment
+//acronym for: PuTTY Secure Copy (PSCP)
+//PuTTY Secure Copy client, is a tool for transferring files securely between computers using an SSH connection.
+
+//if you are using Linux/Unix environment
+//use the scp; acronym for : Secure Copy (SCP)
+//It is a command to securely move updates and certificates and other files from a source computer onto the SafeNet appliance, or 
+//to move appliance certificates or log files out to a client computer.
+
+//note-terminology
+//SSH
+
+#STEP 14 : DOWNLOAD 
+WinSCP
+
+//note
+//WinSCP is for file transfer to and from your server.
+//It is a file transfer application using Secure FTP.
+//Also offers scripting and basic file manager functionality. 
+
+//if you are using Linux/Unix environment
+//SolarWinds Serv-U Managed File Transfer, FileZilla, Cyberduck, CrossFTP, Cerberus FTP Server, Titan FTP. 
+
+#STEP 15 : DOWNLOAD 
+Wireshark
+
+//note
+//Wireshark is a network packet analyzer. Captures any kind of information passing through the network.
+//example: password, usernames, email addresses, personal information, pictures, videos.
+//Used to capture network traffic then identifying who or what is consuming the network resources and the latency details; 
+//these important for both troubleshooting and planning.
+
+//both can be used for Windows and Linux/Unix environment
+
+#STEP 16 : DOWNLOAD 
+SquirrelSQL
+
+//note
+//SQuirreL SQL Client is a database administration tool; GUI (graphical user interface).
+//It uses JDBC to allow users to explore and interact with databases via a JDBC driver.
+
+#####################
+
 #STEP 8 : CHECK & RESIZE
 
 $ free -g -h -t 
@@ -77,20 +173,8 @@ $lsblk -f
 //this command list disks, including the partitions and the filesystems formatted on them.
 
 
-#STEP 9 : DOWNLOAD 
-PuTTY
+DOWNLOAD BASE & PATCH IIQ SAILPOINT
 
-//note
-//a free, open-source terminal emulator, serial console and network file transfer application.
-
-#STEP 10 : DOWNLOAD 
-WinSCP
-
-//note
-//a free open source SFTP client, FTP client, WebDAV client and SCP client for Windows. It also offers scripting and basic file manager functionality
-
-#STEP 11 : DOWNLOAD BASE & PATCH IIQ SAILPOINT
-
-#STEP 12 : 
+#STEP 1 : 
 
 ##################################################### CONTINUING ON-PROGRESS TO UPDATE THIS ##########################################################################
